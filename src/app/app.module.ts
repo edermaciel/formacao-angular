@@ -8,6 +8,7 @@ import { ConversorModule } from './conversor';
 import { DashboardModule } from './dashboard';
 import { JogoDaVelhaModule } from './jogo-da-velha';
 import { TarefasModule } from './tarefas';
+import { TodoModule } from './todo';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { TarefasModule } from './tarefas';
     ConversorModule,
     TarefasModule,
     JogoDaVelhaModule,
+    TodoModule,
     
     AppRoutingModule, //sempre deixar esse module pai por último
   ],
