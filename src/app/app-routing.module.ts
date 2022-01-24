@@ -6,6 +6,7 @@ import { ConversorRoutes } from './conversor';
 import { DashboardRoutes } from './dashboard';
 import { JogoDaVelhaRoutes } from './jogo-da-velha';
 import { TarefaRoutes } from './tarefas';
+import { TodoRoutes } from './todo';
 
 
 export const routes: Routes = [
@@ -19,6 +20,7 @@ export const routes: Routes = [
     ...ConversorRoutes,
     ...TarefaRoutes,
     ...JogoDaVelhaRoutes,
+    ...TodoRoutes,
 ];
 
 @NgModule({
